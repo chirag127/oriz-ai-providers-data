@@ -1,0 +1,29 @@
+name: Release
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Validate JSON
+        run: |
+          for f in providers.json models.json priority.json env-vars.json; do
+            python3 -c "import json,sys; json.load(open('$f'))" || exit 1
+          done
+      - name: Create release tag
+        env: { GH_TOKEN: ${{ github.token }} }
+        run: |
+          DATE=$(date -u +%Y.%m.%d)
+          SHA=$(git rev-parse --short HEAD)
+          TAG="data-${DATE}-${SHA}"
+          git tag "$TAG"
+          git push origin "$TAG"
+          gh release create "$TAG" \
+            providers.json models.json priority.json env-vars.json \
+            --title "Data snapshot ${DATE}" \
+            --notes "Automated snapshot from commit ${SHA}."
