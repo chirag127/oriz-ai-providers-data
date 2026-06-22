@@ -218,5 +218,104 @@
     "requiresPhoneVerification": false,
     "requiresCard": false,
     "dataUsedForTraining": false
+  },
+  {
+    "slug": "agnes",
+    "name": "Agnes AI",
+    "country": "US",
+    "baseUrl": "https://apihub.agnes-ai.com/v1",
+    "signupUrl": "https://agnes-ai.com/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "freetheai-xyz",
+    "name": "FreeTheAI.xyz (local proxy)",
+    "country": "LOCAL",
+    "baseUrl": "http://localhost:8000/v1",
+    "signupUrl": "https://freetheai.xyz/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "gemini",
+    "name": "Google Gemini API (native)",
+    "country": "US",
+    "baseUrl": "https://generativelanguage.googleapis.com/v1beta",
+    "signupUrl": "https://aistudio.google.com/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": true
+  },
+  {
+    "slug": "hyperspace-ai",
+    "name": "Hyperspace AI (local LiteLLM)",
+    "country": "LOCAL",
+    "baseUrl": "http://localhost:6655/litellm/v1",
+    "signupUrl": "https://hyperspace.ai/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "lm-studio",
+    "name": "LM Studio (local)",
+    "country": "LOCAL",
+    "baseUrl": "http://localhost:1234/v1",
+    "signupUrl": "https://lmstudio.ai/",
+    "requiresKey": false,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "omniroute",
+    "name": "Omniroute (local proxy)",
+    "country": "LOCAL",
+    "baseUrl": "http://localhost:20128/v1",
+    "signupUrl": "https://omniroute.ai/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "opencode-zen",
+    "name": "OpenCode Zen",
+    "country": "US",
+    "baseUrl": "https://opencode.ai/zen/v1",
+    "signupUrl": "https://opencode.ai/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "routeway",
+    "name": "Routeway",
+    "country": "US",
+    "baseUrl": "https://api.routeway.ai/v1",
+    "signupUrl": "https://routeway.ai/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "zai-zhipu",
+    "name": "Z.AI Zhipu (CN endpoint)",
+    "country": "CN",
+    "baseUrl": "https://open.bigmodel.cn/api/paas/v4",
+    "signupUrl": "https://open.bigmodel.cn/",
+    "requiresKey": true,
+    "requiresPhoneVerification": true,
+    "requiresCard": false,
+    "dataUsedForTraining": true
   }
 ]
