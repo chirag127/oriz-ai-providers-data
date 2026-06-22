@@ -1,2 +1,8 @@
 .DS_Store
 *.log
+
+# env (synced via sops + age)
+.env
+.env.local
+.env.*.local
+.sops-age-key.txt
