@@ -154,6 +154,17 @@
     "dataUsedForTraining": false
   },
   {
+    "slug": "prism-api",
+    "name": "Prism API",
+    "country": "SG",
+    "baseUrl": "https://sub2api.558686.xyz/v1",
+    "signupUrl": "https://sub2api.558686.xyz/home",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
     "slug": "zai",
     "name": "Z.AI (Zhipu)",
     "country": "CN",

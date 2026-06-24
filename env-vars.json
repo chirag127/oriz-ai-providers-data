@@ -13,6 +13,7 @@
   "mistral": "MISTRAL_API_KEY",
   "sambanova": "SAMBANOVA_API_KEY",
   "openrouter": "OPENROUTER_API_KEY",
+  "prism-api": "PRISM_API_KEY",
   "zai": "ZAI_API_KEY",
   "siliconflow": "SILICONFLOW_API_KEY",
   "aion-labs": "AION_LABS_KEY",
