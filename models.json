@@ -26,6 +26,7 @@
   { "slug": "Meta-Llama-3.3-70B-Instruct", "provider": "sambanova", "contextWindow": 131072, "maxOutput": 8192, "modality": "text", "rateLimit": { "rpm": 20, "rpd": null, "tpd": 200000 }, "family": "llama" },
   { "slug": "meta-llama/llama-3.3-70b-instruct:free", "provider": "openrouter", "contextWindow": 128000, "maxOutput": 8192, "modality": "text", "rateLimit": { "rpm": 20, "rpd": 200, "tpd": null }, "family": "llama" },
   { "slug": "qwen/qwen3-coder:free", "provider": "openrouter", "contextWindow": 262000, "maxOutput": 8192, "modality": "code", "rateLimit": { "rpm": 20, "rpd": 200, "tpd": null }, "family": "qwen" },
+  { "slug": "gpt-5.5", "provider": "prism-api", "contextWindow": null, "maxOutput": null, "modality": "text", "rateLimit": { "rpm": null, "rpd": null, "tpd": null }, "family": "gpt" },
   { "slug": "glm-4.7-flash", "provider": "zai", "contextWindow": 128000, "maxOutput": 8192, "modality": "text", "rateLimit": { "rpm": null, "rpd": null, "tpd": null }, "family": "glm" },
   { "slug": "Qwen/Qwen3-8B", "provider": "siliconflow", "contextWindow": 32768, "maxOutput": 8192, "modality": "text", "rateLimit": { "rpm": null, "rpd": null, "tpd": null }, "family": "qwen" },
   { "slug": "aion-1.0-mini", "provider": "aion-labs", "contextWindow": 32768, "maxOutput": 8192, "modality": "text", "rateLimit": { "rpm": 15, "rpd": null, "tpd": 20000 }, "family": "aion" },
